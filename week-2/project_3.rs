@@ -6,5 +6,5 @@ fn main(){
     // compound interest depreciation
     let a:f64=p*(1.0-(r/100.0)).powf(t);
     let cid=a-p;
-    println!("{}",cid)
+    println!("{}",cid);
 }
